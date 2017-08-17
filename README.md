@@ -1,2 +1,1 @@
-# ipws
-InterPlanetary Web Space
+# IPWS
