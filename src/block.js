@@ -167,7 +167,7 @@ export class Block {
     new_link._block = new_child
     let new_links = this.links.set(new_link)
 
-    let new_block = new Block(this.ipfs, this)
+    let new_block = new Block(this.store, this)
     new_block.links = new_links
     new_block.meta.prev = this
 
