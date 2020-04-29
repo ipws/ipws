@@ -1,5 +1,6 @@
+'use strict'
 
-export class Meta {
+export default class Meta {
 
   constructor (meta) {
     meta = meta || {}

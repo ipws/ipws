@@ -1,6 +1,8 @@
-import { Link } from './link.js'
+'use strict'
 
-export class LinkSet {
+import Link from './link.js'
+
+export default class LinkSet {
 
   constructor (links) {
     if (links instanceof LinkSet) {

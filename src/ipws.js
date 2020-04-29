@@ -1,7 +1,9 @@
-import { Store } from './store.js'
-import { Block } from './block.js'
+'use strict'
 
-export class Ipws {
+import Store from './store.js'
+import Block from './block.js'
+
+export default class Ipws {
 
   constructor (ipfs) {
     this.ipfs = ipfs

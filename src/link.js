@@ -1,5 +1,6 @@
+'use strict'
 
-export class Link {
+export default class Link {
 
   constructor ({ name, hash }) {
     this.name = name

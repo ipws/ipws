@@ -1,5 +1,6 @@
+'use strict'
 
-export class Data {
+export default class Data {
 
   constructor (data) {
     data = data || {}

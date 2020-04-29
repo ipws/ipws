@@ -1,10 +1,11 @@
+'use strict'
 
-import { Meta } from './meta.js'
-import { Data } from './data.js'
-import { Link } from './link.js'
-import { LinkSet } from './linkset.js'
+import Meta from './meta.js'
+import Data from './data.js'
+import Link from './link.js'
+import LinkSet from './linkset.js'
 
-export class Block {
+export default class Block {
 
   constructor (store, block) {
     block = block || {}
