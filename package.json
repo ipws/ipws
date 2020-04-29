@@ -1,15 +1,13 @@
 {
   "name": "ipws",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "InterPlanetary Web Space",
   "keywords": [
     "ipfs",
-    "ipws"
+    "ipws",
+    "dweb"
   ],
   "main": "index.js",
-  "bin": {
-    "ipws": "src/cli/bin.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
