@@ -13,10 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "commander": "^2.11.0",
-    "ipfs-api": "^14.0.4"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "author": "Enrico Marino",
   "license": "ISC",

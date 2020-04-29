@@ -2,14 +2,13 @@
 
 const info = require('../../package.json')
 const Path = require('path')
-const IPFS = require('ipfs-api')
 const FS = require('./util/fs')
 
 module.exports = class IPWS {
 
   static get version () { return info.version }
 
-  constructor () {
+  constructor (IPFS) {
     this.ipfs = IPFS('localhost', '5001')
   }
 
