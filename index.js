@@ -1,7 +1,7 @@
 'use strict'
 
-import IPWS from './src/index.js'
+import Ipws from './src/index.js'
 
-globalThis['IPWS'] = IPWS
+globalThis['Ipws'] = Ipws
 
-export default IPWS
+export default Ipws
